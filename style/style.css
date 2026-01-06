@@ -5,13 +5,16 @@
 }
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     display: flex;
+    flex-direction: column;
     padding-top: 50px;
 }
 nav{
     width: 80%;
-    max-width: 1149px;
-
+    max-width: 1140px;
     margin: 0px auto;
     display: flex;
     align-items: center;
@@ -43,8 +46,38 @@ nav .menu a{
     color: #474747;
 }
 
-
 .font-open-sans{
     font-family: "Open Sans", sans-serif;
     font-style: normal;
-  }
+}
+
+#banner{
+    margin: 45px 40px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color:#474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1{
+    font-size: 85px;
+    color:#181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+#banner .hardy img{
+    max-width: 590px;
+    vertical-align: middle;
+}
