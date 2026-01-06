@@ -158,3 +158,104 @@ nav .menu a{
     font-size: 16px;
     font-weight: lighter;
 }
+
+
+
+#resume{
+    text-align: center;
+}
+#summary{
+    margin-bottom: 113px;
+    font-size: 30px;
+}
+.resume-container{
+    display: flex;
+    margin: 0 230px;
+    gap: 24px;
+    text-align: left;
+}
+#resume .resume-container .education h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#resume .resume-container .education .edu-info h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#resume .resume-container .education .edu-info .college{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#resume .resume-container .education .edu-info .info{
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+#resume .resume-container .education .edu-info hr{
+    margin-bottom: 30px;
+}
+#resume .resume-container .experience h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#resume .resume-container .experience .exp-info h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#resume .resume-container .experience .exp-info .company{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#resume .resume-container .experience .exp-info .info{
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+#resume .resume-container .experience .exp-info hr{
+    margin-bottom: 30px;
+}
+#resume .button{
+    margin-bottom: 113px;
+}
+
+
+footer{
+    background-color:#FFF8F3;
+    height: 780px;
+    padding: 130px 230px;
+}
+footer .container{
+    display: flex;
+    gap: 115px;
+}
+footer .container .connect, footer .container .connect{
+    width: 460px;
+}
+footer .container .connect h4, footer .container .message h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+footer .container .connect p{
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+footer .message form{
+    display: flex;
+    flex-direction: column;
+}
+#name, #email{
+    height: 64px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+#msg{
+    height: 180px;
+    margin-bottom: 20px;
+    padding: none;
+}
+
+
