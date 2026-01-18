@@ -252,10 +252,117 @@ footer .message form{
     width: 100%;
     margin-bottom: 24px;
 }
-#msg{
+#area{
     height: 180px;
     margin-bottom: 20px;
     padding: none;
 }
 
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width:576px){
+    header {
+        background: url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position:bottom center;
+    }
+nav {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+
+}
+nav .menu{
+    flex-wrap: wrap;
+    margin: 30px;
+}
+#banner{
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+#banner .banner-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner .banner-content .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+#banner .banner-content h2{
+    font-size: 30px;
+}
+#banner .banner-content h1{
+    font-size: 50px;
+}
+#banner .hardy img{
+    width: 100%;
+    margin-top: 30px;
+}
+.about-container{
+    margin: 0;
+    padding: 30px;
+}
+.about-container h3{
+    font-size: 25px;
+}
+.about-container .about-info {
+    flex-direction: column;
+    gap: 30px;
+}
+
+        .skill-container{
+            margin: 0;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+
+.skill-container .about-work p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: justify;
+}
+.skill-card-container {
+    flex-direction: column;
+    align-items: center;
+}
+.skill-card-container .skill-card{
+    width: 100%;
+}
+#summary {
+    margin: 60px 0;
+    font-size: 30px;
+}
+.resume-container{
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.resume-container .education, .resume-container .experience{
+    width: 90%;
+}
+footer{
+    padding: 30px;
+    margin-top: 60px;
+}
+footer .container {
+    flex-direction: column;
+    gap: 50px;
+}
+footer .container .connect, footer .container .connect{
+    width: 100%;
+}
+#area{
+    height: 180px;
+    padding: 5px;
+}
+}
 
